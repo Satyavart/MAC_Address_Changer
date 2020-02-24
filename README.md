@@ -3,9 +3,11 @@ There are 3 modes provided in the file:
 1. We can change MAC address manually by selecting the network and choosing your own MAC address.
 
   eg.   python Mac_Changer.py -i eth0 -m 00:00:00:00:00:00
+  
 2. We can set a random MAC address of a network.
 
   eg.   python Mac_Changer.py -i wlan0 -r
+  
 3. Last one, or I should say most effective one. It gives random MAC address in the time interval provided.
 
   eg.   python Mac_Changer.py -i wlan0 -r -t 600
